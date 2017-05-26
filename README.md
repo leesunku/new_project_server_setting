@@ -15,3 +15,18 @@ $ passwd 계정명
 >> java가 루트 계정에 설치 되어있을 경우 /etc/profile 에 패스 설정
 >> 추가된 사용자가 사용할 경우, 사용자 폴더에 .bashrc 파일이나 .bash_profile에 패스 설정 한다.
 >> 확인 java, javac, java -version
+
+>> tomcat 설치
+
+$ wget http://apache.mirror.cdnetworks.com/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-
+
+8.5.15.tar.gz
+
+>> tomcat 압축 풀기
+
+$ tar -zxvf 파일.tar.gz
+
+>> tomcat 심볼릭 링크
+
+$ ln -s apache-tomcat-.... tomcat
+
